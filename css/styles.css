@@ -1,0 +1,95 @@
+body {
+    background-color: #0c0e0f;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.25;
+}
+
+h1,h2,h3 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #ee293d;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer a, a:hover {
+    color: #fff;
+}
+
+.container-fluid {
+    max-width: 1110px;
+}
+
+.navbar-nav .nav-link {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.125rem;
+    text-transform: uppercase;
+}
+
+.nav-link:hover {
+    text-decoration: none;
+}
+
+.bg-primary {
+    background-color: #1a5dad !important; /* Overrides previous important rule.*/
+}
+
+.btn {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    border-radius: 0; /*Removes rounded corners.*/
+}
+
+.btn:hover {
+    text-decoration: none;
+}
+
+.btn-primary {
+    background-color: #1a5dad;
+    border-color: #1a5dad;
+}
+
+.form-control {
+    border: none;
+    border-radius: 0;
+}
+
+.carousel-caption {
+    top: 50%;
+    bottom: auto;
+    transform: translateY(-50%); /* TranslateY method moves an element from its current position. It moves the position of the element on the vertical plane by the amount provided.*/
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.25rem;
+    text-shadow: 0 0 10px #000;
+
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+}
+
+.logo {
+    background-image: url('../images/space-oddity.svg');
+    background-repeat: no-repeat; /*Shows only ones.*/
+    width: 350px;
+    height: 62px;
+    margin: 0;
+}
+
+
